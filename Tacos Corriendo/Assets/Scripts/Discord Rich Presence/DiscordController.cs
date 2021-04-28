@@ -22,7 +22,7 @@ public class DiscordController : MonoBehaviour
             State = State,
             Timestamps =
             {
-                Start = 5,
+                Start = StartTimestamp,
             },
         };
         activityManager.UpdateActivity(activity, (result) =>
