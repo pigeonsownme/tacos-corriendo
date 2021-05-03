@@ -1,0 +1,1091 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51692
+Successfully changed project path to: C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002652 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.020 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.6 MB.
+System memory in use after: 121.8 MB.
+
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 3132.
+Total: 7.939100 ms (FindLiveObjects: 0.756800 ms CreateObjectMapping: 0.528900 ms MarkObjects: 3.638200 ms  DeleteObjects: 3.012000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Graphics
+  artifactKey: Guid(e6ac219995141974f8e7a10ec3a3e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics using Guid(e6ac219995141974f8e7a10ec3a3e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037f7d1ddf26987da844aed9e0b5f54a') in 0.040305 seconds
+  Import took 0.046233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.980645 seconds.
+  path: Assets/Graphics/Prefabs
+  artifactKey: Guid(1e90e0731352a7b4490748aa22b1211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs using Guid(1e90e0731352a7b4490748aa22b1211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577cd069b6f854c2982ee81990140a1d') in 0.028307 seconds
+  Import took 0.031800 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001686 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 118.9 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3135.
+Total: 7.195700 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.140100 ms MarkObjects: 4.671100 ms  DeleteObjects: 2.103200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.369834 seconds.
+  path: Assets/Graphics/Prefabs/Buildings
+  artifactKey: Guid(8cb37277cf1560c4ca1cd3e9885d6468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings using Guid(8cb37277cf1560c4ca1cd3e9885d6468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b6a584c8ec984d01f54dfe9f65d62c') in 0.011843 seconds
+  Import took 0.015701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.412119 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9e2dfb3c8cd5c60bfd1c805eed3899') in 0.049026 seconds
+  Import took 0.053296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 325.234926 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13dbfeee715700d643fbb8be81aef72') in 0.013227 seconds
+  Import took 0.018028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006185 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13dbfeee715700d643fbb8be81aef72') in 0.007135 seconds
+  Import took 0.011982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.200863 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f850d064af0d50c1435e3b7d6b865f5') in 0.009876 seconds
+  Import took 0.015138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003473 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f850d064af0d50c1435e3b7d6b865f5') in 0.003888 seconds
+  Import took 0.007468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.267923 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d50cfe59de5b9887dac82baaf4f39eb') in 0.012712 seconds
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007118 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d50cfe59de5b9887dac82baaf4f39eb') in 0.004938 seconds
+  Import took 0.009550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.144338 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road90.prefab
+  artifactKey: Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road90.prefab using Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b809e05edc1fbc564ef676ccb275ff') in 0.011313 seconds
+  Import took 0.016314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001754 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road90.prefab
+  artifactKey: Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road90.prefab using Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b809e05edc1fbc564ef676ccb275ff') in 0.005525 seconds
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.486819 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2f5969ea993d3f720e6a976aef1eba') in 0.010206 seconds
+  Import took 0.015147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.573585 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c35496d1f3b5b68ef57b4004faf7ad') in 0.007556 seconds
+  Import took 0.015415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.477910 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea180baa4b460ec26d77f2d9413dea2') in 0.006057 seconds
+  Import took 0.011679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.805263 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899e875662df50f7a084449f236e57f7') in 0.006249 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.345091 seconds.
+  path: Assets/Scripts/WpldGen
+  artifactKey: Guid(dd2db1ba75bd15b4aad05e405d1e1334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WpldGen using Guid(dd2db1ba75bd15b4aad05e405d1e1334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dd22a6d5e262278d71f128235bf8b3') in 0.006707 seconds
+  Import took 0.010728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.161438 seconds.
+  path: Assets/Scripts/WpldGen/BuildingRepository.cs
+  artifactKey: Guid(8f61c7642c713dc4a9fc4b45bfb4d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WpldGen/BuildingRepository.cs using Guid(8f61c7642c713dc4a9fc4b45bfb4d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47622c9bc1ca4d036b8ab7e75b7451f') in 0.034490 seconds
+  Import took 0.038784 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.508 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 9.407200 ms (FindLiveObjects: 2.657300 ms CreateObjectMapping: 1.203600 ms MarkObjects: 3.747700 ms  DeleteObjects: 1.796400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002955 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3142.
+Total: 8.169300 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.175200 ms MarkObjects: 5.439800 ms  DeleteObjects: 2.163800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.832949 seconds.
+  path: Assets/Scripts/WpldGen/BuildingRepository.cs
+  artifactKey: Guid(8f61c7642c713dc4a9fc4b45bfb4d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WpldGen/BuildingRepository.cs using Guid(8f61c7642c713dc4a9fc4b45bfb4d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eea76cfff4fb9c995520682f0a35ca1') in 0.007254 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.053739 seconds.
+  path: Assets/Building Repository.asset
+  artifactKey: Guid(2ba541421af34304e8896614d2daa838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building Repository.asset using Guid(2ba541421af34304e8896614d2daa838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2c9cecee85767af47234254aa7b799') in 0.010080 seconds
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002454 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3145.
+Total: 5.340900 ms (FindLiveObjects: 0.839300 ms CreateObjectMapping: 0.275000 ms MarkObjects: 2.224000 ms  DeleteObjects: 2.001100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.180473 seconds.
+  path: Assets/WorldGeneration
+  artifactKey: Guid(a1bac712d333e5d419ae8ec27b6c8152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldGeneration using Guid(a1bac712d333e5d419ae8ec27b6c8152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d713137efa0059ef61e4f817232cba') in 0.010736 seconds
+  Import took 0.014599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.429329 seconds.
+  path: Assets/WorldGeneration/Building Repository.asset
+  artifactKey: Guid(99f50e5ff7ea77648b5675d1499c3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldGeneration/Building Repository.asset using Guid(99f50e5ff7ea77648b5675d1499c3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bce8913f8422f4e36cb6e949008cfa') in 0.005805 seconds
+  Import took 0.010986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/WorldGeneration/Building Repository.asset
+  artifactKey: Guid(99f50e5ff7ea77648b5675d1499c3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WorldGeneration/Building Repository.asset using Guid(99f50e5ff7ea77648b5675d1499c3bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bce8913f8422f4e36cb6e949008cfa') in 0.004026 seconds
+  Import took 0.009806 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.7 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 7.815900 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 0.225100 ms MarkObjects: 3.533300 ms  DeleteObjects: 3.287700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3151.
+Total: 5.875500 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.974200 ms  DeleteObjects: 2.471800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2711 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.0 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3154.
+Total: 6.892200 ms (FindLiveObjects: 0.717100 ms CreateObjectMapping: 0.427600 ms MarkObjects: 3.409800 ms  DeleteObjects: 2.335900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.447906 seconds.
+  path: Assets/Scripts/WpldGen/Chunk.cs
+  artifactKey: Guid(a123a3af8c721a04ba1dc2723dc9ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WpldGen/Chunk.cs using Guid(a123a3af8c721a04ba1dc2723dc9ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639eff83b122f2294e5c5633e30f361a') in 0.016756 seconds
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3158.
+Total: 5.810100 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.342400 ms  DeleteObjects: 3.008100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3161.
+Total: 6.080000 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.169400 ms MarkObjects: 2.796400 ms  DeleteObjects: 2.796600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 650.999576 seconds.
+  path: Assets/Scripts/WpldGen/Chunk.cs
+  artifactKey: Guid(a123a3af8c721a04ba1dc2723dc9ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WpldGen/Chunk.cs using Guid(a123a3af8c721a04ba1dc2723dc9ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1594dde633d1a96151d83ca21495edcf') in 0.007728 seconds
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3164.
+Total: 3.918500 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.138200 ms MarkObjects: 1.713500 ms  DeleteObjects: 1.686800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3167.
+Total: 7.570700 ms (FindLiveObjects: 0.809700 ms CreateObjectMapping: 0.418200 ms MarkObjects: 4.068200 ms  DeleteObjects: 2.269900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3170.
+Total: 9.066200 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.120100 ms MarkObjects: 4.806800 ms  DeleteObjects: 3.885300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3173.
+Total: 11.193500 ms (FindLiveObjects: 3.580800 ms CreateObjectMapping: 0.516000 ms MarkObjects: 5.008200 ms  DeleteObjects: 2.086700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.021920 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1c1bc3cc407c4d7cf5bc78a085712c') in 0.037645 seconds
+  Import took 0.044683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.513235 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641c9f2dc29203bf95d3d3918b558615') in 0.008595 seconds
+  Import took 0.012873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.306983 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87261366ce30970cb20ed4985e6aeb') in 0.012117 seconds
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.135944 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d555c4e8406d4b994f1a6358fccc4c') in 0.007006 seconds
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.957010 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc222d67a178ee0ec01b45f2b5fea69') in 0.008285 seconds
+  Import took 0.014552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.310220 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66665e5e555d6985e85a540ee5f66603') in 0.011480 seconds
+  Import took 0.018004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740697 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952bd887484292fe137c48f884c1ce7d') in 0.010354 seconds
+  Import took 0.018271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.688417 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e85a054b0ea92bb3e91d52b5bb49420') in 0.007804 seconds
+  Import took 0.013486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.179135 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road90.prefab
+  artifactKey: Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road90.prefab using Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f49ff88b9f0f7b1c92b89275168d86') in 0.016290 seconds
+  Import took 0.025812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.492577 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road90.prefab
+  artifactKey: Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road90.prefab using Guid(6017863975cc6a0469718c4060d3344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be200a9167de90397ad8cf828e1d567f') in 0.009702 seconds
+  Import took 0.017340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.350069 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d85685a223daa93aa99c9e30426616') in 0.007754 seconds
+  Import took 0.015370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031323 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d85685a223daa93aa99c9e30426616') in 0.008181 seconds
+  Import took 0.013502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.473636 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992c7e858d1548cf295ca8a2231e5913') in 0.011793 seconds
+  Import took 0.017444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.241508 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c728046851b7fdfdc7a6d8e48e1910d3') in 0.011336 seconds
+  Import took 0.017703 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3176.
+Total: 4.800200 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.140000 ms MarkObjects: 2.704100 ms  DeleteObjects: 1.639200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3179.
+Total: 8.279500 ms (FindLiveObjects: 0.476000 ms CreateObjectMapping: 0.214000 ms MarkObjects: 4.599200 ms  DeleteObjects: 2.987100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3182.
+Total: 8.069000 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.203900 ms MarkObjects: 3.932800 ms  DeleteObjects: 3.553000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.165516 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12de9f425015c0633d477160921daabf') in 0.035119 seconds
+  Import took 0.042428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.537324 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c59548d05c99ee9c37178c7f526431') in 0.008743 seconds
+  Import took 0.014008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.850179 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cff0df10728be52a7afcd9efc43c0c') in 0.011293 seconds
+  Import took 0.017788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043478 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cff0df10728be52a7afcd9efc43c0c') in 0.006892 seconds
+  Import took 0.014105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.521452 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab952d396e15ef76ec7c70a9b7861f41') in 0.006386 seconds
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044673 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab952d396e15ef76ec7c70a9b7861f41') in 0.005373 seconds
+  Import took 0.015496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482918 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7854e67f79f1d77bf31b055a0c50c71e') in 0.008552 seconds
+  Import took 0.016055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025513 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Road.prefab
+  artifactKey: Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Road.prefab using Guid(d38181d3e0c87974c90ce91490ebb179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7854e67f79f1d77bf31b055a0c50c71e') in 0.006261 seconds
+  Import took 0.011421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.782301 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c437fa493422919e382f658f78361d') in 0.006555 seconds
+  Import took 0.015053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030627 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c437fa493422919e382f658f78361d') in 0.007042 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285191 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ace76c4fe2a274265201085a6419186') in 0.008417 seconds
+  Import took 0.013931 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3185.
+Total: 4.617900 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.150900 ms MarkObjects: 1.905400 ms  DeleteObjects: 2.267600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 6.075300 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.175400 ms MarkObjects: 3.188400 ms  DeleteObjects: 2.298900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.8 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3191.
+Total: 6.784900 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.146200 ms MarkObjects: 4.348500 ms  DeleteObjects: 1.942500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:/Users/Ammar/Documents/GitHub/tacos-corriendo/Tacos Corriendo/Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 119.1 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 4.055200 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.117500 ms MarkObjects: 1.841900 ms  DeleteObjects: 1.755000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

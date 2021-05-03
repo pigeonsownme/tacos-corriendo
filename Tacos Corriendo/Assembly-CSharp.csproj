@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Discord Rich Presence\DiscordController.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\WpldGen\BuildingRepository.cs" />
+    <Compile Include="Assets\Scripts\WpldGen\Chunk.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
