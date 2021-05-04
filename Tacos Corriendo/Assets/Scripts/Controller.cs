@@ -26,6 +26,7 @@ public class Controller : MonoBehaviour
     public KeyCode breaking = KeyCode.Space;
     [SerializeField] float MaxSteeringAngle = 75f;
     private bool forwPress;
+    private bool backpress;
     private bool leftPress;
     private bool rightPress;
     //Current physics state
@@ -81,6 +82,7 @@ public class Controller : MonoBehaviour
         leftPress = Input.GetKey(left);
         rightPress = Input.GetKey(right);
         isBraking = Input.GetKey(breaking);
+        backpress = Input.GetKey(backwards);
         if(!rightPress || !leftPress)
         {
             if (rightPress && !leftPress)
@@ -125,6 +127,11 @@ public class Controller : MonoBehaviour
         else
         {
             CurrentBrakeForce = 0f;
+        }
+        if (backpress)
+        {
+            FrontLeftWheelCollider.motorTorque = -motorForce/2;
+            FrontRightWheelCollider.motorTorque = -motorForce/2;
         }
         ApplyBreaking();
 

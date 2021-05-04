@@ -8,7 +8,8 @@ public class Chunk : MonoBehaviour
     [HideInInspector]
     public bool isRoad = false;
     [HideInInspector]
-    public int ID;
+    public int building_ID;
+    public int road_ID;
     [HideInInspector]
     public bool isLoaded;
     Camera mainCam;
@@ -22,7 +23,8 @@ public class Chunk : MonoBehaviour
         Buildings = (BuildingRepository)AssetDatabase.LoadAssetAtPath("Assets/WorldGeneration/Building Repository.asset", typeof(BuildingRepository));
         mainCam = Camera.main;
         CamPosition = mainCam.transform;
-        ID = Random.RandomRange(0, Buildings.Buildings.Length);
+        building_ID = Random.RandomRange(0, Buildings.Buildings.Length);
+        road_ID = Random.RandomRange(0, Buildings.Roads.Length);
         LoadObject();
     }
 
@@ -36,11 +38,11 @@ public class Chunk : MonoBehaviour
     {
         if (isRoad)
         {
-            LoadedObject = Instantiate(Buildings.Roads[ID], new Vector3(-15f,0f,15f), transform.rotation);
+            LoadedObject = Instantiate(Buildings.Roads[road_ID], new Vector3(-15f + transform.position.x, 0f, 15f + transform.position.z), transform.rotation);
         }
         else
         {
-            LoadedObject = Instantiate(Buildings.Buildings[ID], new Vector3(-15f + transform.position.x, 0f, 15f + transform.position.z), transform.rotation);
+            LoadedObject = Instantiate(Buildings.Buildings[building_ID], new Vector3(-15f + transform.position.x, 0f, 15f + transform.position.z), transform.rotation);
         }
         isLoaded = true;
     }
