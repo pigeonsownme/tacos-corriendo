@@ -56,11 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\WpldGen\Chunk.cs" />
+    <Compile Include="Assets\Scripts\WorldGen\ChunkGenerator.cs" />
+    <Compile Include="Assets\Scripts\WorldGen\Chunk.cs" />
     <Compile Include="Assets\Scripts\Discord Rich Presence\DiscordController.cs" />
-    <Compile Include="Assets\Scripts\WpldGen\BuildingRepository.cs" />
+    <Compile Include="Assets\Scripts\WorldGen\BuildingRepository.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\WpldGen\ChunkGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
