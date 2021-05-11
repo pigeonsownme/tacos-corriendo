@@ -33,6 +33,7 @@ public class ChunkGenerator : MonoBehaviour
                 Chunks[e * i].GetComponent<MeshRenderer>().enabled = false;
                 Chunks[e * i].GetComponent<BoxCollider>().isTrigger = true;
                 Chunks[e * i].AddComponent<Chunk>();
+                Chunks[e * i].tag = "ChunkObject";
 
                 if (forks.Contains(new Vector2(i, e))) Chunks[e * i].GetComponent<Chunk>().isRoad = true;
             }

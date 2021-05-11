@@ -57,10 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\WorldGen\ChunkGenerator.cs" />
-    <Compile Include="Assets\Scripts\WorldGen\Chunk.cs" />
+    <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
     <Compile Include="Assets\Scripts\Discord Rich Presence\DiscordController.cs" />
     <Compile Include="Assets\Scripts\WorldGen\BuildingRepository.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\Chunks\ChunkCollider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

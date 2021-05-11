@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -166,10 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0681240d704d8aa4c88e4f0192ed6a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 10
-  length: 10
-  minForks: 5
-  maxForks: 10
+  width: 50
+  length: 50
+  minForks: 100
+  maxForks: 100
   Chunks: []
 --- !u!1 &85089108
 GameObject:
@@ -381,6 +381,8 @@ GameObject:
   - component: {fileID: 320113808}
   - component: {fileID: 320113807}
   - component: {fileID: 320113810}
+  - component: {fileID: 320113811}
+  - component: {fileID: 320113812}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -465,9 +467,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b3299b50b7eb84d8087b1ae5a6cf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Details: in dev mode
-  State: yea ur not supposed to acess this mode
+  Details: Aztec Ruins
+  State: Selling tacos
   StartTimestamp: 0
+--- !u!114 &320113811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320113806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5860d356beeea4bb787e04e5601798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderDistance: 100
+--- !u!54 &320113812
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320113806}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!850595691 &633023033
 LightingSettings:
   m_ObjectHideFlags: 0
