@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChunkCollider : MonoBehaviour
 {
-    [SerializeField] private int renderDistance;
+    [SerializeField] private float renderDistance;
     private SphereCollider collider;
     // Start is called before the first frame update
     void Start()
@@ -22,13 +22,14 @@ public class ChunkCollider : MonoBehaviour
         }
     }
 
-    public void SetRenderDistance(int distance)
+    public void SetRenderDistance(float distance)
     {
         Debug.Log("Changing render distance");
         collider.radius = distance;
-        if(distance == collider.radius)
+        float newRad = collider.radius;
+        if(distance == newRad)
         {
-            Debug.LogError("Encountered a problem while setting render distance");
+            Debug.LogError("Encountered a problem while setting render distance (new render distance is " + distance + " while collider radius is "+ newRad);
         }
         else
         {
