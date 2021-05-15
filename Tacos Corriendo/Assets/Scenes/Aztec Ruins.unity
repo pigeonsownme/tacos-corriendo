@@ -168,8 +168,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 50
   length: 50
-  minForks: 100
-  maxForks: 100
   Chunks: []
 --- !u!1 &85089108
 GameObject:
@@ -211,7 +209,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21012
+  m_Name: pb_Mesh19400
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -482,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5860d356beeea4bb787e04e5601798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderDistance: 100
+  renderDistance: 500
 --- !u!54 &320113812
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -785,7 +783,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89

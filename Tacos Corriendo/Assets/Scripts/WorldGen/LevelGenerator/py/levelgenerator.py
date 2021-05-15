@@ -16,6 +16,12 @@ class Chunk:
             self.x == other.x and self.y == other.y and self.contents == other.contents
         )
 
+    def __hash__(self):
+        n1 = self.x
+        n2 = 1000 * self.y
+        n3 = 1000000 * ord(self.contents[0]) if self.contents is not None else 0
+        return n1 + n2 + n3
+
     def ToDict(self):
         return {"x": self.x, "y": self.y, "contents": self.contents}
 
@@ -27,15 +33,27 @@ class Fork(Chunk):
         self.connections = []
 
 
-# A Road object is just one straight line
-class Road:
+class Road(Chunk):
+    def __init__(self, x, y, model=None):
+        super().__init__(x, y, "road")
+        self.model = model
+
+    def ToDict(self):
+        output = super().ToDict()
+        # TODO
+        output.update({"model": self.model})
+        return output
+
+
+# A Vector object is just one straight orthogonal line
+class Vector:
     def __init__(self, x1, y1, x2, y2):
         self.x1 = x1
         self.y1 = y1
         self.x2 = x2
         self.y2 = y2
 
-    # Converts a Road object into Chunk objects with contents='road'
+    # Converts a Vector object into Chunk objects with contents='road'
     def ToChunks(self):
         x1, x2 = sorted([self.x1, self.x2])
         y1, y2 = sorted([self.y1, self.y2])
@@ -43,7 +61,7 @@ class Road:
         chunks = []
         for x in range(x1, x2 + 1):
             for y in range(y1, y2 + 1):
-                chunks.append(Chunk(x, y, "road"))
+                chunks.append(Road(x, y))
 
         return chunks
 
@@ -56,7 +74,7 @@ class Road:
             and self.y2 == other.y2
         )
 
-    # Generates 2 Road objects to connect 2 Fork objects
+    # Generates 2 Vector objects to connect 2 Fork objects
     @staticmethod
     def Connect(forkA, forkB, first_axis=None):
         # The first road's axis is random by default, but can be manually set
@@ -65,8 +83,8 @@ class Road:
 
         corner = [forkB.x, forkA.y] if first_axis == "h" else [forkA.x, forkB.y]
 
-        road1 = Road(forkA.x, forkA.y, *corner)
-        road2 = Road(*corner, forkB.x, forkB.y)
+        road1 = Vector(forkA.x, forkA.y, *corner)
+        road2 = Vector(*corner, forkB.x, forkB.y)
 
         forkA.connections.append(forkB)
         forkB.connections.append(forkA)
@@ -78,7 +96,7 @@ class Level:
     def __init__(self, width, height):
         self.width = width
         self.height = height
-        self.chunks = []
+        self.chunks = {"roads": [], "buildings": []}
         self.forks = []
         self.roads = []
 
@@ -125,8 +143,8 @@ class Level:
             self.forks.append(new_fork)
             attempts = 0
 
-    # Connects each Fork object to one other random Fork object with Road objects, then converts the
-    # Road objects into Chunk objects
+    # Connects each Fork object to one other random Fork object with Vector objects, then converts the
+    # Vector objects into Chunk objects
     def GenerateRoads(self):
         for forkA in self.forks:
             # So the Fork object is not connected to itself or a Fork object it is already connected to
@@ -135,35 +153,29 @@ class Level:
                 possible_connections.remove(fork)
 
             forkB = choice(possible_connections)
+            self.roads += Vector.Connect(forkA, forkB)
 
-            self.roads += Road.Connect(forkA, forkB)
-
-        # Converts the newly created Road objects into Chunk objects
         for road in self.roads:
-            road_chunks = road.ToChunks()
-            for chunk in road_chunks:
-                # Prevents duplicate chunks (Road objects can overlap)
-                if not chunk in self.chunks:
-                    self.chunks.append(chunk)
+            self.chunks["roads"] += road.ToChunks()
 
     # Some Fork objects will end up being dead ends
     def FixDeadEnds(self):
         dead_ends = []
         # Checks for dead ends
         for fork in self.forks:
-            neighbors = 0
             axis_to_connect = ""
+            neighbors = 0
 
-            if Chunk(fork.x - 1, fork.y, contents="road") in self.chunks:
+            if Road(fork.x - 1, fork.y) in self.chunks["roads"]:
                 neighbors += 1
                 axis_to_connect = "v"
-            if Chunk(fork.x + 1, fork.y, contents="road") in self.chunks:
+            if Road(fork.x + 1, fork.y) in self.chunks["roads"]:
                 neighbors += 1
                 axis_to_connect = "v"
-            if Chunk(fork.x, fork.y - 1, contents="road") in self.chunks:
+            if Road(fork.x, fork.y - 1) in self.chunks["roads"]:
                 neighbors += 1
                 axis_to_connect = "h"
-            if Chunk(fork.x, fork.y + 1, contents="road") in self.chunks:
+            if Road(fork.x, fork.y + 1) in self.chunks["roads"]:
                 neighbors += 1
                 axis_to_connect = "h"
 
@@ -179,23 +191,58 @@ class Level:
                 possible_connections.remove(fork)
 
             forkB = choice(possible_connections)
-            new_roads += Road.Connect(dead_end, forkB, axis_to_connect)
+            new_roads += Vector.Connect(dead_end, forkB, axis_to_connect)
 
         self.roads += new_roads
 
         for road in new_roads:
-            road_chunks = road.ToChunks()
-            for chunk in road_chunks:
-                if not chunk in self.chunks:
-                    self.chunks.append(chunk)
+            self.chunks["roads"] += road.ToChunks()
+
+    # Converts Vector objects into Chunk objects
+    def ConvertRoadTypes(self):
+        unique_roads = set(self.chunks["roads"])
+        self.chunks["roads"].clear()
+
+        for road in unique_roads:
+            neighbors = ""
+
+            if Road(road.x, road.y + 1) in unique_roads:
+                neighbors += "d"
+            if Road(road.x - 1, road.y) in unique_roads:
+                neighbors += "l"
+            if Road(road.x + 1, road.y) in unique_roads:
+                neighbors += "r"
+            if Road(road.x, road.y - 1) in unique_roads:
+                neighbors += "u"
+
+            # Order : dlru
+            converter = {
+                "u": "│",
+                "d": "│",
+                "l": "─",
+                "r": "─",
+                "du": "│",
+                "lr": "─",
+                "dlr": "┬",
+                "dlu": "┤",
+                "dru": "├",
+                "lru": "┴",
+                "ru": "└",
+                "lu": "┘",
+                "dr": "┌",
+                "dl": "┐",
+                "dlru": "┼",
+            }
+
+            road.model = converter[neighbors]
+            self.chunks["roads"].append(road)
 
     # Logs the level into the console
     def Print(self):
         output = [[" " for j in range(self.width)] for i in range(self.height)]
 
-        for chunk in self.chunks:
-            if chunk.contents == "road":
-                output[chunk.y][chunk.x] = "O"
+        for chunk in self.chunks["roads"] + self.chunks["buildings"]:
+            output[chunk.y][chunk.x] = chunk.model
 
         for fork in self.forks:
             output[fork.y][fork.x] = "0"
@@ -204,5 +251,31 @@ class Level:
             print("\t", *line, sep="")
 
     def ToJSON(self, destination):
-        dict_chunks = list(map(Chunk.ToDict, self.chunks))
+        dict_chunks = list(map(Chunk.ToDict, self.chunks["roads"]))
         json.dump(dict_chunks, destination, indent=4)
+
+    def ToTXT(self):
+        lines = [list("0") * self.width for i in range(self.height)]
+
+        converter = {
+            "│": "1",
+            "─": "2",
+            "┬": "3",
+            "┤": "4",
+            "├": "5",
+            "┴": "6",
+            "└": "7",
+            "┘": "8",
+            "┌": "9",
+            "┐": "A",
+            "┼": "B",
+        }
+
+        for chunk in self.chunks["roads"]:
+            lines[chunk.y][chunk.x] = converter[chunk.model]
+
+        output = ""
+        for line in lines:
+            output += "".join(line) + "\n"
+
+        return output

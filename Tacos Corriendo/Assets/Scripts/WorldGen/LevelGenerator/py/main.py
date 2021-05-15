@@ -19,5 +19,5 @@ level.Print()
 
 os.chdir(os.getcwd() + "\\Assets\\Scripts\\WorldGen\\LevelGenerator\\")
 
-with open("level.tcl", "w") as f:
-    f.write(level.ToTCL())
+with open("level.txt", "w") as f:
+    f.write(level.ToTXT())

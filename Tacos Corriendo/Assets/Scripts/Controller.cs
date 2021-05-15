@@ -74,6 +74,10 @@ public class Controller : MonoBehaviour
         HandleMotor();
         HandleSteering();
         CameraFollow();
+        if(transform.rotation.z == 90 || transform.rotation.z == -90)
+        {
+            transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0);
+        }
     }
 
     private void GetInput()
