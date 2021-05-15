@@ -13,11 +13,9 @@ public class ChunkGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string path = Application.dataPath + "/Scripts/Chunks/Level.txt";
-        string[] lines = File.ReadAllLines(path);
-        Debug.Log(File.ReadAllLines(path));
+        RoadmapGenerator();
         Chunks = new GameObject[width*length];
-        RoadmapGenerator(width / 10, width, length);
+       // RoadmapGenerator(width / 10, width, length);
         for (int i = 0; i < width; i++)
         {
             for(int e = 0; e < length; e++)
@@ -28,19 +26,6 @@ public class ChunkGenerator : MonoBehaviour
                 Chunks[e * i].GetComponent<BoxCollider>().isTrigger = true;
                 Chunk chunkComponent = Chunks[e * i].AddComponent<Chunk>();
                 Chunks[e * i].tag = "ChunkObject";
-                char[] characters = lines[i].ToCharArray();
-                if(characters[e] != 0)
-                {
-                    chunkComponent.isRoad = true;
-                }
-                else
-                {
-                    chunkComponent.isRoad = false;
-                }
-                n++;
-                chunkComponent.x = e;
-                chunkComponent.y = i;
-                chunkComponent.n = n;
             }
         }
     }
@@ -50,62 +35,12 @@ public class ChunkGenerator : MonoBehaviour
     {
         
     }
-    public void RoadmapGenerator(int ForkNumberByRow, int MapWidth, int MapLength)
+    public void RoadmapGenerator()
     {
-        string path = Application.dataPath + "/Scripts/Chunks/Level.txt";
-        int totalCharCount;
-        Debug.Log("Generating Roadmap at path " + path + "===============================================================================================================");
-        try
-        {
-            File.Delete(path);
-            Debug.Log("Successfuly cleared old level file");
-        }
-        catch
-        {
-            Debug.Log("No prior level file found");
-        }
-
-        StreamWriter writer = new StreamWriter(path, true);
-        string content = "";
-        bool isLastRoad = false;
-        writer.Write("");
-        Debug.Log("Beggining road generation");
-        for (int i = 0; i < MapLength; i++)
-        {
-            for (int e = 0; e < MapWidth; e++)
-            {
-                if (isLastRoad)
-                {
-                    content += "0";
-                    isLastRoad = false;
-                }
-                else
-                {
-                    int gotIt = Random.Range(0, MapWidth);
-                    if (gotIt == 1)
-                    {
-                        content += "1";
-                        isLastRoad = true;
-                    }
-                    else
-                    {
-                        content += "0";
-                    }
-                }
-
-            }
-            try
-            {
-                writer.WriteLine(content);
-                content = "";
-                Debug.Log("Logged road row " + i + "/" + MapLength + ", wrote " + i * MapWidth + " chunks as of now");
-            }
-            catch
-            {
-                Debug.LogError("Couldnt write line " + i + "/" + MapLength);
-            }
-        }
-        writer.Close();
-        AssetDatabase.ImportAsset(path);
+        Debug.Log("Generating roadmap");
+        string strCmdText;
+        strCmdText = @"Assets\Scripts\WorldGen\LevelGenerator\main.exe 50 50 30 35 5";
+        Debug.Log("opening cmd with args " + strCmdText);
+        System.Diagnostics.Process.Start("CMD.exe", strCmdText);
     }
 }
