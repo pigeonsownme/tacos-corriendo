@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - ChunkObject
+  - Road
   layers:
   - Default
   - TransparentFX

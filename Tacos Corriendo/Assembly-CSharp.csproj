@@ -61,8 +61,9 @@
     <Compile Include="Assets\Scripts\Discord Rich Presence\DiscordController.cs" />
     <Compile Include="Assets\Scripts\Chunks\ChunkCollider.cs" />
     <Compile Include="Assets\Scripts\WorldGen\BuildingRepository.cs" />
-    <Compile Include="Assets\Scripts\Controller.cs" />
     <Compile Include="Assets\Scripts\People\People.cs" />
+    <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\UI\Billboard.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Scripts\Chunks\Level.txt" />
