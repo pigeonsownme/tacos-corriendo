@@ -12,10 +12,13 @@ public class People : MonoBehaviour
     public bool hasSpawned;
     GameObject TACOs;
     GameObject spawned;
+    Transform parent;
+    Rigidbody rBody;
     // Start is called before the first frame update
     void Start()
     {
-        
+        rBody = GetComponent<Rigidbody>();
+        parent = GameObject.Find("bubble").transform;
     }
 
     // Update is called once per frame
@@ -27,11 +30,13 @@ public class People : MonoBehaviour
     {
         if (!hasSpawned)
         {
-            GroupSize = Random.RandomRange(0, MaxSize);
-            TACOs = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Graphics/Prefab/UI/Taco.prefab", typeof(GameObject));
-            spawned = Instantiate(TACOs, new Vector3(0.5f, 2, -0.5f), Quaternion.Euler(0,0,0));
-            spawned.transform.parent = transform;
-            Destroy(GetComponent<Rigidbody>());
+            GroupSize = Random.Range(0, MaxSize);
+            TACOs = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Graphics/Prefabs/UI/Taco.prefab", typeof(GameObject));
+            spawned = Instantiate(TACOs, new Vector3((transform.position.x + 0.5f*30), (transform.position.y + 2), (transform.position.z - 0.5f*30)), Quaternion.Euler(0,0,0), parent);
+            spawned.transform.localScale = new Vector3(2.5f, 2.5f, 2.5f);
+            rBody.detectCollisions = false;
+            Destroy(rBody);
+            hasSpawned = true;
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -39,18 +44,17 @@ public class People : MonoBehaviour
         if(other.tag == "Road")
         {
             road = true;
+        }
+        if(!hasSpawned && road && other.tag == "Tacolider")
+        {
             pplnshit();
         }
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-        if (!hasSpawned)
+        if (hasSpawned && road && other.tag == "Tacolider")
         {
-            if (other.tag == "Road")
-            {
-                road = true;
-                pplnshit();
-            }
+            Destroy(spawned);
         }
     }
 }

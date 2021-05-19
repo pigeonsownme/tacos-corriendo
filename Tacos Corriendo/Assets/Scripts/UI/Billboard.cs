@@ -6,23 +6,16 @@ public class Billboard : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] Transform truckKun;
-    [SerializeField] bool orientation;
     // Start is called before the first frame update
     void Start()
     {
-        
+        truckKun = GameObject.Find("Truck kun").transform;
+        target = Camera.main.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (orientation)
-        {
-            transform.LookAt(target, Vector3.up);
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, truckKun.rotation.y, 0);
-        }
+        transform.LookAt(target, Vector3.up);
     }
 }
