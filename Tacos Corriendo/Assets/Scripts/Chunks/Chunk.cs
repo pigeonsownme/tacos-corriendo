@@ -59,7 +59,6 @@ public class Chunk : MonoBehaviour
     public void LoadRoad()
     {
         LoadedObject = Instantiate(Buildings.Roads[road_ID], new Vector3(-15f + transform.position.x, 0f, 15f + transform.position.z), transform.rotation);
-        Debug.Log("Loading road on " + n + "th chunk");
         isLoaded = true;
         LoadedObject.transform.parent = this.transform;
         isRoad = true;
@@ -68,7 +67,6 @@ public class Chunk : MonoBehaviour
     {
         if (isRoad)
         {
-            Debug.Log("unloading IsRoad object at (x=" + x + ",y=" + y + ",n=" + n + ") isRoad = "+isRoad);
         }
         Destroy(LoadedObject);
         isLoaded = false;

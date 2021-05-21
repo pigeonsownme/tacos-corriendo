@@ -47,6 +47,8 @@ public class Controller : MonoBehaviour
     [SerializeField] private WheelCollider FrontRightWheelCollider;
     [SerializeField] private WheelCollider BackLeftWheelCollider;
     [SerializeField] private WheelCollider BackRightWheelCollider;
+    public Vector3 rotation;
+    public Vector3 LocalRot;
     //Camera
     [Header("Camera Settings")]
     [SerializeField] private GameObject cameraAnchor;
@@ -74,7 +76,9 @@ public class Controller : MonoBehaviour
         HandleMotor();
         HandleSteering();
         CameraFollow();
-        if(transform.rotation.z == 90 || transform.rotation.z == -90)
+        LocalRot = transform.localRotation.eulerAngles;
+        rotation = transform.rotation.eulerAngles;
+        if(transform.rotation.z >= 295 || transform.rotation.z <= 320)
         {
             transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0);
         }
