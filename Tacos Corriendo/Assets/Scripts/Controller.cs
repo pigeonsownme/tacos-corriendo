@@ -78,9 +78,9 @@ public class Controller : MonoBehaviour
         CameraFollow();
         LocalRot = transform.localRotation.eulerAngles;
         rotation = transform.rotation.eulerAngles;
-        if(transform.rotation.z >= 295 || transform.rotation.z <= 320)
+        if (Input.GetKey(KeyCode.T))
         {
-            transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0);
+            transform.rotation = Quaternion.Euler(0, transform.rotation.y, 0);
         }
     }
 

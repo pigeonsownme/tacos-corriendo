@@ -1,0 +1,2734 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16273 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+14854
+Successfully changed project path to: C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gibbo/OneDrive/Documents/Unity/tacos-corriendo/Tacos Corriendo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001784 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.697 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.7 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 143 unused Assets to reduce memory usage. Loaded Objects now: 3787.
+Total: 4.720100 ms (FindLiveObjects: 0.553300 ms CreateObjectMapping: 0.210800 ms MarkObjects: 2.153700 ms  DeleteObjects: 1.801100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/People/People.cs
+  artifactKey: Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/People/People.cs using Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d7fbbd0823fda5f6bfec3c99eafef8') in 0.054092 seconds
+  Import took 0.059037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(fa5d42320ae505f4587fe7a1c91d922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(fa5d42320ae505f4587fe7a1c91d922f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10257b796006396d1b72ca5351d5b245') in 0.004670 seconds
+  Import took 0.010172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Scripts/UI/Billboard.cs
+  artifactKey: Guid(c4f9a0845d9e3a54a9b1dc9844bdbbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Billboard.cs using Guid(c4f9a0845d9e3a54a9b1dc9844bdbbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05327df4344f7c74f5cdc14975b5977d') in 0.005860 seconds
+  Import took 0.010428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.062445 seconds.
+  path: Assets/Scripts/People/People.cs
+  artifactKey: Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/People/People.cs using Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e975de44f4b3af07801999b87c9de5') in 0.011101 seconds
+  Import took 0.021191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003090 seconds.
+  path: Assets/Scripts/People/People.cs
+  artifactKey: Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/People/People.cs using Guid(c829e6b5e6872cd48a58e07354225ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e975de44f4b3af07801999b87c9de5') in 0.014605 seconds
+  Import took 0.025392 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001772 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 150.9 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3790.
+Total: 4.829500 ms (FindLiveObjects: 0.385200 ms CreateObjectMapping: 0.209300 ms MarkObjects: 2.451600 ms  DeleteObjects: 1.782300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3157 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.9 MB.
+System memory in use after: 151.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3793.
+Total: 11.728400 ms (FindLiveObjects: 0.568500 ms CreateObjectMapping: 0.458800 ms MarkObjects: 6.921100 ms  DeleteObjects: 3.777700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.509280 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbeddff42b57d91341e8d71c7e1e46d') in 0.040447 seconds
+  Import took 0.046893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58837a3694e23e9bb06898ffecd20598') in 0.012276 seconds
+  Import took 0.020781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Temple.prefab
+  artifactKey: Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Temple.prefab using Guid(dfbf6d6eabd29904a8c6cb3827594576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19eefb6e5c743690834bc1b4965b904') in 0.023035 seconds
+  Import took 0.040219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Cool .prefab
+  artifactKey: Guid(5f1129b1a8471864cbfad8af22cef2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Cool .prefab using Guid(5f1129b1a8471864cbfad8af22cef2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994baa32d2a07fe554e7bdebc0be8c5a') in 0.009309 seconds
+  Import took 0.017148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Restaurant.prefab
+  artifactKey: Guid(9543bbf88e356dd40b2245d66c15581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Restaurant.prefab using Guid(9543bbf88e356dd40b2245d66c15581d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f2bc814600fcc63ff49fb93c59637c') in 0.013259 seconds
+  Import took 0.020604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Modern.prefab
+  artifactKey: Guid(b8b658d92bc740241baf7552f033aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Modern.prefab using Guid(b8b658d92bc740241baf7552f033aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0074252ea5c6742bdf4dadd307a694b') in 0.012471 seconds
+  Import took 0.019269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Cool House.prefab
+  artifactKey: Guid(3d7bf65476ecf5847a738c8f8ef61cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Cool House.prefab using Guid(3d7bf65476ecf5847a738c8f8ef61cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe1818de58719eb9d36f12575f625df') in 0.021352 seconds
+  Import took 0.028093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1c8dac3f8d62a5a3edbdb18bff88df') in 0.008484 seconds
+  Import took 0.013210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.230874 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b1f5e649c3d1e3ebcdec86770f2d25') in 0.006656 seconds
+  Import took 0.014693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.758299 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dc3143ea6ed501a5aa8a84a7963a82') in 0.005216 seconds
+  Import took 0.013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.400705 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcf04e348c399946e54f94ac144f6cd') in 0.004441 seconds
+  Import took 0.009782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.021696 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb6fe0c431d614a9f98b6348629525') in 0.007008 seconds
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.622366 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c79dc2e42efc05cad6ff117521564d6') in 0.004112 seconds
+  Import took 0.009927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.201192 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a852b19958522baac4dc172605b82875') in 0.005377 seconds
+  Import took 0.011229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.205497 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cb3373c46495c515a23fc89523d4ce') in 0.004880 seconds
+  Import took 0.011249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.808394 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4c040d095fa23bdb9e1aa9711b591d') in 0.005673 seconds
+  Import took 0.012742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.204486 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7525e674062b36143430aa830c3de0cd') in 0.007851 seconds
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.222295 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354a461106ab0979b332a6226421f888') in 0.005696 seconds
+  Import took 0.011442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.822787 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce31758690c5072ec5cab9ed798559d') in 0.006776 seconds
+  Import took 0.012021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.599883 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb2aba3073521357f766823b3c825a0') in 0.004835 seconds
+  Import took 0.012668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789887 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0e67f64fcb8bad8fea22cc9d703c79') in 0.009059 seconds
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807433 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963774bf0a236f0781bd3747cc558566') in 0.004410 seconds
+  Import took 0.011515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.812530 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cdddcac472e5ed80bc2aac2fb15457') in 0.003885 seconds
+  Import took 0.008534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804854 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e98a76bb66fe025eb3bcb136793f43d') in 0.003778 seconds
+  Import took 0.008540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.667424 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1d905e59e5a107e294102b6692763d') in 0.005542 seconds
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574999 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dc826ef91311897c4c27a4f0c00d60') in 0.005260 seconds
+  Import took 0.012733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396501 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eed752f624d0015a2593dc22d754798') in 0.003958 seconds
+  Import took 0.009170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.406973 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a90efba83d817628c9be1a06a8878e') in 0.004855 seconds
+  Import took 0.010082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.211223 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d8db2ff73068058809261cb9fd7215') in 0.008206 seconds
+  Import took 0.013706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.399396 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37294fbc9d60cb22627620bd3fdc12dc') in 0.004972 seconds
+  Import took 0.012496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795511 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85116f6041f9ef3270e9860cd064be27') in 0.005136 seconds
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012699 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37cb78bc9f6b336a19fff2af5d2d5bd') in 0.006119 seconds
+  Import took 0.013798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.231125 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1771e6e0c5ab3cbc5ee01b74f0f28d0d') in 0.004985 seconds
+  Import took 0.010083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589705 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a48f79da32c103e0995caf86d6931fc') in 0.007528 seconds
+  Import took 0.015679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.590995 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3999f54ba1fd794a5ae4d3fe29eb5ea8') in 0.005345 seconds
+  Import took 0.012002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420644 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab44eba99889f947932fd638eea5ca9') in 0.004401 seconds
+  Import took 0.011022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795892 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4049be0c5b6aafe0abf2aea6dbfde1d7') in 0.006171 seconds
+  Import took 0.012363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.817261 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7ef040ce755ec19bc31810859932b9') in 0.004956 seconds
+  Import took 0.009618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009477 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6ca2ff9222a6d4fba7253cbe7c1ebe') in 0.005932 seconds
+  Import took 0.012852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014613 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6691debbadd08706696515b55bfa91') in 0.004397 seconds
+  Import took 0.010328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.994067 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13376e8e1dbc43fcce27aa46d9b61a9') in 0.007166 seconds
+  Import took 0.012302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.401350 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954485cbb2ba458319fc9e8bc45c0705') in 0.004483 seconds
+  Import took 0.011090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.193817 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b341eb74e5345a57b42f3c3571b92c') in 0.004514 seconds
+  Import took 0.010006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605355 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56109a19f0f815d57f52c69535baa89') in 0.006250 seconds
+  Import took 0.013558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.383671 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef8539c82702503a3c0a26506e685c3') in 0.005368 seconds
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.455281 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce8e0744520ae2f8c60bbaa63ed549c') in 0.005713 seconds
+  Import took 0.011020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.456603 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b546b681977b003bdf5b03627385bb') in 0.006260 seconds
+  Import took 0.012154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601273 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1837903196f6c3ae221b958bec8267c7') in 0.004698 seconds
+  Import took 0.011029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416157 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e035a45f07d2ed6c8d07299d0f5a737') in 0.005073 seconds
+  Import took 0.010827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.803162 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd948d3bf7f874c2f8b10ec62913e9426') in 0.006436 seconds
+  Import took 0.014525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.803748 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f08a0d50be23baaab252abc166b6a34') in 0.005405 seconds
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.442826 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22344b7a3fa0462029f5c69315cea871') in 0.007071 seconds
+  Import took 0.018028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.602040 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6544dd8340a29d6860bc500084573ec6') in 0.006894 seconds
+  Import took 0.012221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594683 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd909e12d8083281c3f7294be63ab3996') in 0.005452 seconds
+  Import took 0.012621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.434745 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62002e5d2771c223b8e811d76b70759') in 0.006725 seconds
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.186034 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804eafeec5fe9878b5aa3d3b5dab5b07') in 0.004628 seconds
+  Import took 0.009204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192334 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bfb5da2fc960cd6abeda34bbdd6b94') in 0.004715 seconds
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410802 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098e916e0c46185507b62b5bae6670fc') in 0.003804 seconds
+  Import took 0.009734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.633294 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd09738057659f7ab56d774e5c24da0') in 0.007098 seconds
+  Import took 0.012577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.791530 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d518370719a41528b9c007cd70019') in 0.005202 seconds
+  Import took 0.011687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816200 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665736f04373431bfa44c4b21429d9c0') in 0.005865 seconds
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.989569 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b87c7733d227a613ed5ce9363b06e0') in 0.006872 seconds
+  Import took 0.011633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.214625 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dd7fda6f01bb540dbc138371848029') in 0.004150 seconds
+  Import took 0.010036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.383400 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd36af594565bacc97597bcd04ff8dc8') in 0.004589 seconds
+  Import took 0.009617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.625579 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1b8c9539fb9f511180f7139fa47823') in 0.005332 seconds
+  Import took 0.014094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.777523 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55882cdb4bb4fb4dedf0c00fbfd843d') in 0.005374 seconds
+  Import took 0.011521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.995946 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcee114002ca8437471d0b8370edec6') in 0.007450 seconds
+  Import took 0.015051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.599379 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8c4583d4d8426523cc19217217a3e') in 0.007137 seconds
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.603457 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5c4eab0b0173e042c77a5f059b1485') in 0.007758 seconds
+  Import took 0.013953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396646 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b1b61ab7bf7c78ee1b309b1320c58e') in 0.006610 seconds
+  Import took 0.015125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.410496 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaa5b43c19c41d350a4a06333137a2b') in 0.005923 seconds
+  Import took 0.010689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609885 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3f6e35f1f259d927240c01867f50de') in 0.006075 seconds
+  Import took 0.011416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.428330 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8f51d80bfbc77038cfd145ec4cc63f') in 0.009097 seconds
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369613 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba873a5d9ec172819452ae70f0298ef') in 0.007678 seconds
+  Import took 0.015200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.196597 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48a7576da838f9cd05976e2f021c9fb') in 0.010301 seconds
+  Import took 0.017409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.800304 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08caa5ddc71438ed18311b02b353a68') in 0.004451 seconds
+  Import took 0.010046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.224402 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c29eee341b7d0b59aa8f983eefa54') in 0.005880 seconds
+  Import took 0.014291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.193021 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ace1e3ba4917c730f9e34b624b7d82') in 0.006603 seconds
+  Import took 0.011895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827904 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50754f7028ee4c5b742778eff710d37c') in 0.003853 seconds
+  Import took 0.008779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.448900 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ee64f6c4e525034e2d23a919a32647') in 0.007464 seconds
+  Import took 0.013040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.171558 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6b67fae18abfd2cd4b76b475d18316') in 0.005531 seconds
+  Import took 0.010713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.091232 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b6bd25568f6f57716f86b74b071345') in 0.004713 seconds
+  Import took 0.010337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.721875 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1233838fe9d81c01c19ea7f064e81cc3') in 0.007366 seconds
+  Import took 0.015779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781278 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ea61c72a1995b61b52a508f4836556') in 0.007906 seconds
+  Import took 0.013113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420720 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d9f679bd8a3e720543ecf0cdf0a01c') in 0.004767 seconds
+  Import took 0.034930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.177343 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b965e4d94a60ab4726f0a714739a90') in 0.005524 seconds
+  Import took 0.011921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.597530 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c69a07b45fb536432e5926504e5458') in 0.004318 seconds
+  Import took 0.009948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392834 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05da456035162ad1d82997644347ac8') in 0.004166 seconds
+  Import took 0.010412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.992986 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3061e284727dfce0a64763ed9e002780') in 0.004847 seconds
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.260724 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faeec1f449b1600fcb2a85e8de4a593') in 0.007720 seconds
+  Import took 0.013413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412715 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a338c24715d9a638819e48c541df6738') in 0.005413 seconds
+  Import took 0.010907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770655 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15caaf0b0949c35d669870b76c0b3fa4') in 0.005525 seconds
+  Import took 0.011245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.245795 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03bc87c5f895dbd0f02506575a458f') in 0.008833 seconds
+  Import took 0.015427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797035 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be41351ff147d842f9abafb8b3416b70') in 0.006100 seconds
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.799152 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3482cdb7c69838e4a24acfce0aadef28') in 0.004848 seconds
+  Import took 0.012562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.793459 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40ce777b4f1b05c8cbf3f39891edd82') in 0.005420 seconds
+  Import took 0.011971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009124 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6175c593fe49bd1071234411c89ce47a') in 0.006471 seconds
+  Import took 0.012610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007680 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdc673b79b36f4d15181fc5675b8560') in 0.005801 seconds
+  Import took 0.013766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402562 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ada0c1a346e327e1d6e145941b7f3dc') in 0.006282 seconds
+  Import took 0.011593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406514 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f9a287ebb25c155060b025e342462') in 0.007184 seconds
+  Import took 0.027976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.060719 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f039b88f68b6fb1222070adf717619') in 0.005844 seconds
+  Import took 0.010660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.137400 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6d9f85c3f2f36952a3309325feada1') in 0.005327 seconds
+  Import took 0.011532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364837 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e102da00fa4cab9efdc8a414a54c6') in 0.004405 seconds
+  Import took 0.009868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390033 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba1f24bb2c002057215ec1b5d1c752a') in 0.003603 seconds
+  Import took 0.009783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.025352 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd940a5c9cd334d22c789109cb1586823') in 0.006975 seconds
+  Import took 0.013140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631606 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387c21dcb64db74dfe6b6dbff5a0196') in 0.004791 seconds
+  Import took 0.010097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414390 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09850bd13fa0e2303bee5c5a295dfdd6') in 0.007233 seconds
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.002479 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e45484543787b4f97cb241c58a1d31') in 0.005191 seconds
+  Import took 0.012084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804066 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff026fede53408a5f0075382d0f5692') in 0.005253 seconds
+  Import took 0.010663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.036143 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da88bf2f9067501f5d4d09797064c247') in 0.016568 seconds
+  Import took 0.024108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.191491 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb587bc075c3a7592c8725f25043962') in 0.005229 seconds
+  Import took 0.014056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.400097 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a370733d1ebefcf28e8f54abbe2b61aa') in 0.005115 seconds
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.616875 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c35e3962ad24ad6abc53fa69bbb1db') in 0.005285 seconds
+  Import took 0.011159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.886790 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef0da4476d74b9d509972734fda7967') in 0.004461 seconds
+  Import took 0.009284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.108846 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172025dc3618d074e13569927a9d1522') in 0.004932 seconds
+  Import took 0.010870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.007215 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81af03ecc62691a704b3869fe2b56b6') in 0.004997 seconds
+  Import took 0.019371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.978092 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4edb845cfc883b9ec99fd1e9d5e77c') in 0.004762 seconds
+  Import took 0.011044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416691 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efa88b10c6172d4984f5179379a5706') in 0.004056 seconds
+  Import took 0.009516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.612900 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc2084a628f5c1df6fcf31ff922be40') in 0.005378 seconds
+  Import took 0.013386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.013047 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8466ce072bca9c1da9b8a583be06d76') in 0.003865 seconds
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.804519 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378bc9ec724e51c729d66974eeb5bed0') in 0.004163 seconds
+  Import took 0.009681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.190360 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2cf76466c00bb4678dd2568f4102ad') in 0.005464 seconds
+  Import took 0.010478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.832255 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad70a8848c53d1b8cd9cdba41cbaeb') in 0.006497 seconds
+  Import took 0.017738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161254 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac1724a82ddd8c4a818cfc75be74f85') in 0.006946 seconds
+  Import took 0.030201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.176158 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7281c74967e466e77d9d8f8a114405e') in 0.007138 seconds
+  Import took 0.015068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.592900 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c191accb1395b704644428d6266bb167') in 0.003969 seconds
+  Import took 0.009501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.656647 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3427c8596a857007a6572c2d41f1c795') in 0.005299 seconds
+  Import took 0.011071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.049168 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070447e052099bfedb939d088c07b70') in 0.005840 seconds
+  Import took 0.013697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804730 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a04704cf93924b8dace1c35b0472ac') in 0.005115 seconds
+  Import took 0.011224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594621 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653c2ab6f7bf226465cc834533295d4d') in 0.004967 seconds
+  Import took 0.010334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988232 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dbb283b32d0a970fae3166715fb5d7') in 0.004454 seconds
+  Import took 0.010605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.013628 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6796aadb7eee165fa14b58cb3572434') in 0.006369 seconds
+  Import took 0.014538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.417701 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786dd61572fe6037c77599ce2495c6bf') in 0.006719 seconds
+  Import took 0.012312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591179 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3bb1f9529fb36da44433fee09476a2') in 0.005605 seconds
+  Import took 0.011406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.006045 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c3b8c2ca0d8a91ed19a83ccfcda6bc') in 0.004808 seconds
+  Import took 0.012494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.804664 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638e174993bccfc9db30a915d73b58ca') in 0.005254 seconds
+  Import took 0.011898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014698 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2438dc4666541660715defa7efef4e42') in 0.008535 seconds
+  Import took 0.014136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.805176 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c256474ff0334340c20e2e2b2e6c09') in 0.006274 seconds
+  Import took 0.012213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374816 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f3ac557d91189b308d6b0064324e31') in 0.006054 seconds
+  Import took 0.014160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999871 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a385b7b69b02c8f72fbe712bdea4e365') in 0.004938 seconds
+  Import took 0.010755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.791564 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a242c03622d3195517ed0e5d30e501') in 0.004624 seconds
+  Import took 0.010566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997040 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744a48e858fbf2f6ce6b32bdf142d9a7') in 0.004298 seconds
+  Import took 0.009077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.814169 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb763e1759290fcc5fd88fd1075e8bc') in 0.007945 seconds
+  Import took 0.014787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.983951 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5d95ba97e173417c22415a03667563') in 0.005992 seconds
+  Import took 0.011001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.615070 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d23342288f94177d1d12d313941615') in 0.004946 seconds
+  Import took 0.010967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.006273 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c16924c08195f8700a2e275bb25537') in 0.004777 seconds
+  Import took 0.010674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.273552 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3223ca85ea49a79c9c26b479c7cd668') in 0.006278 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.992387 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4ad46040a9d56663f0788a911ae166') in 0.003764 seconds
+  Import took 0.008730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194039 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ccbf6df244c07f413fdf49806667e7') in 0.006722 seconds
+  Import took 0.012296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410148 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e74ff6cf4340b595f3c3586f97fff5') in 0.006531 seconds
+  Import took 0.014025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827383 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3109efaed16a0b3583b3731804f0c66b') in 0.007302 seconds
+  Import took 0.015181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.408422 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066cfc206bb277a9558ebf78569d8e5e') in 0.005208 seconds
+  Import took 0.011659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174365 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab
+  artifactKey: Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/HouseWithGarage.prefab using Guid(fa9b295ec98d0c74080c5741f029eb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4447358e5707200ce4daa2ad2cfb3') in 0.004859 seconds
+  Import took 0.010205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.952374 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Building1.prefab
+  artifactKey: Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Building1.prefab using Guid(27ac50b48212dd94d9f917f26dd06d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22af55262e3621b215251d50ed5cae2') in 0.010087 seconds
+  Import took 0.016809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.610635 seconds.
+  path: Assets/Graphics/Prefabs/Buildings/Buildings/Building2.prefab
+  artifactKey: Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Prefabs/Buildings/Buildings/Building2.prefab using Guid(5a5e377f2f817814eb369f1c0a428e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2105b781b0cd58b4568bae8cb143743') in 0.005714 seconds
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.806591 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings
+  artifactKey: Guid(6e69d39003a0c6942b556f850ff7e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings using Guid(6e69d39003a0c6942b556f850ff7e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5f9889b35f0b7bf8079a183994df37') in 0.006938 seconds
+  Import took 0.015365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074177 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Bricks.mat
+  artifactKey: Guid(32d9ed734d0426640aa51cb4ad360b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Bricks.mat using Guid(32d9ed734d0426640aa51cb4ad360b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441feca92b8930946f96ddcedf095aa3') in 0.075396 seconds
+  Import took 0.079867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Temple.mat
+  artifactKey: Guid(9ac6eac6dfe7d654383f2f13149df676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Temple.mat using Guid(9ac6eac6dfe7d654383f2f13149df676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12515abc2912399f8f5076025b980705') in 0.019422 seconds
+  Import took 0.025960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Tiles.mat
+  artifactKey: Guid(d141f97bf75fb83408aeb4a90985da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Tiles.mat using Guid(d141f97bf75fb83408aeb4a90985da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5581a14c93bcc44dc2bf55108a8b8ad') in 0.031524 seconds
+  Import took 0.036969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Solid.mat
+  artifactKey: Guid(ad3e88bd6658bfb4082b8da2cfe20548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Solid.mat using Guid(ad3e88bd6658bfb4082b8da2cfe20548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ae52b468574ad02e359472b0a8ed3c') in 0.049598 seconds
+  Import took 0.054617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Glass.mat
+  artifactKey: Guid(6ebaedccd83378c42b6199d670a98e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Glass.mat using Guid(6ebaedccd83378c42b6199d670a98e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17654b754acbaa383f3192334cd78d3a') in 0.015811 seconds
+  Import took 0.022146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Grass.mat
+  artifactKey: Guid(c9ec7725ad5490e4fa90909ace6d3712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Grass.mat using Guid(c9ec7725ad5490e4fa90909ace6d3712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8949c1811ce70adb02999602d438cc06') in 0.052372 seconds
+  Import took 0.058148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.787830 seconds.
+  path: Assets/Graphics/Materials/Buildings/Buildings/Ciool.mat
+  artifactKey: Guid(debf1d66e78c31c4db243be22c9a8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Buildings/Buildings/Ciool.mat using Guid(debf1d66e78c31c4db243be22c9a8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af1a5c3b11f21b9f9a48c837fa0e96a') in 0.025574 seconds
+  Import took 0.032856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.836023 seconds.
+  path: Assets/Scripts/Lighting
+  artifactKey: Guid(f551b593a5f4488449b7e037c5600965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lighting using Guid(f551b593a5f4488449b7e037c5600965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11b1e559743aee3702d2872b9da0a75') in 0.007617 seconds
+  Import took 0.014174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.189513 seconds.
+  path: Assets/Scripts/Lighting/Reflectionprobe.cs
+  artifactKey: Guid(0235292a8700d1d4d94b18d31fb6dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lighting/Reflectionprobe.cs using Guid(0235292a8700d1d4d94b18d31fb6dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95128b690636441d168cab5f466c280b') in 0.013470 seconds
+  Import took 0.019934 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.609 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3837.
+Total: 9.882400 ms (FindLiveObjects: 0.710400 ms CreateObjectMapping: 0.386000 ms MarkObjects: 3.713600 ms  DeleteObjects: 5.070200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3840.
+Total: 4.372000 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.198900 ms MarkObjects: 2.013200 ms  DeleteObjects: 1.856100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 228.153020 seconds.
+  path: Assets/Scripts/Lighting/Reflectionprobe.cs
+  artifactKey: Guid(0235292a8700d1d4d94b18d31fb6dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lighting/Reflectionprobe.cs using Guid(0235292a8700d1d4d94b18d31fb6dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8c9837b90a238bbbb5f0dc5d38d287') in 0.005691 seconds
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3843.
+Total: 8.077500 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.242700 ms MarkObjects: 4.214600 ms  DeleteObjects: 3.202600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 6.371600 ms (FindLiveObjects: 0.520000 ms CreateObjectMapping: 0.251000 ms MarkObjects: 3.286600 ms  DeleteObjects: 2.312100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.558 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3849.
+Total: 9.439300 ms (FindLiveObjects: 1.331200 ms CreateObjectMapping: 0.441300 ms MarkObjects: 3.534800 ms  DeleteObjects: 4.127500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3852.
+Total: 7.375200 ms (FindLiveObjects: 0.516800 ms CreateObjectMapping: 0.230300 ms MarkObjects: 3.194300 ms  DeleteObjects: 3.428800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 5.598600 ms (FindLiveObjects: 0.464700 ms CreateObjectMapping: 0.178200 ms MarkObjects: 2.967100 ms  DeleteObjects: 1.987100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.199 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 5.554200 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.334700 ms MarkObjects: 2.302400 ms  DeleteObjects: 2.460500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3650.746179 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f18220e480fd80e7f14d0d5f4104f2c') in 0.013344 seconds
+  Import took 0.027626 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3861.
+Total: 4.836600 ms (FindLiveObjects: 0.525700 ms CreateObjectMapping: 0.224100 ms MarkObjects: 2.136200 ms  DeleteObjects: 1.948300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.551761 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f2790017a7874db65caf72bebbbdea') in 0.008236 seconds
+  Import took 0.014913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.501 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3864.
+Total: 6.460600 ms (FindLiveObjects: 0.625800 ms CreateObjectMapping: 0.882500 ms MarkObjects: 2.415700 ms  DeleteObjects: 2.534600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 6.006300 ms (FindLiveObjects: 0.564100 ms CreateObjectMapping: 0.245000 ms MarkObjects: 2.880200 ms  DeleteObjects: 2.312400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.810746 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2945ca784a48e499934ff8528aab64f3') in 0.006824 seconds
+  Import took 0.014467 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3870.
+Total: 7.403500 ms (FindLiveObjects: 0.487400 ms CreateObjectMapping: 0.366700 ms MarkObjects: 3.915800 ms  DeleteObjects: 2.631300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3873.
+Total: 13.345300 ms (FindLiveObjects: 0.761500 ms CreateObjectMapping: 0.729400 ms MarkObjects: 7.353500 ms  DeleteObjects: 4.498900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3876.
+Total: 6.150600 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.267000 ms MarkObjects: 3.537100 ms  DeleteObjects: 1.877800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3879.
+Total: 5.455200 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.202700 ms MarkObjects: 2.465600 ms  DeleteObjects: 2.470000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 6.363000 ms (FindLiveObjects: 0.646100 ms CreateObjectMapping: 0.458500 ms MarkObjects: 2.653600 ms  DeleteObjects: 2.601600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.411 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3885.
+Total: 9.450300 ms (FindLiveObjects: 0.761700 ms CreateObjectMapping: 0.401300 ms MarkObjects: 4.114200 ms  DeleteObjects: 4.170500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.061339 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54630c81a500d31376fbd5081d6396') in 0.011676 seconds
+  Import took 0.025570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001164 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54630c81a500d31376fbd5081d6396') in 0.002435 seconds
+  Import took 0.007235 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3888.
+Total: 5.179100 ms (FindLiveObjects: 0.553900 ms CreateObjectMapping: 0.270900 ms MarkObjects: 2.386500 ms  DeleteObjects: 1.965800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3891.
+Total: 6.796700 ms (FindLiveObjects: 0.552500 ms CreateObjectMapping: 0.317400 ms MarkObjects: 3.645200 ms  DeleteObjects: 2.279200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.661 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 9.087100 ms (FindLiveObjects: 0.455200 ms CreateObjectMapping: 0.242600 ms MarkObjects: 4.830000 ms  DeleteObjects: 3.557200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.435061 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e245f13175b07dab3d3bce71da4d2') in 0.014483 seconds
+  Import took 0.021837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015059 seconds.
+  path: Assets/Scripts/Controller.cs
+  artifactKey: Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller.cs using Guid(5b6e63ceaf0faec4699c8d4b18a7c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e245f13175b07dab3d3bce71da4d2') in 0.006174 seconds
+  Import took 0.014083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3897.
+Total: 4.885600 ms (FindLiveObjects: 0.432100 ms CreateObjectMapping: 0.207000 ms MarkObjects: 2.398900 ms  DeleteObjects: 1.845800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.603 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 6.053000 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.254800 ms MarkObjects: 2.905400 ms  DeleteObjects: 2.483000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 6.407700 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.161300 ms MarkObjects: 3.234000 ms  DeleteObjects: 2.633500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 8.535800 ms (FindLiveObjects: 0.637700 ms CreateObjectMapping: 0.389100 ms MarkObjects: 4.026300 ms  DeleteObjects: 3.481000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001713 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3909.
+Total: 8.059400 ms (FindLiveObjects: 0.705300 ms CreateObjectMapping: 0.434500 ms MarkObjects: 4.486600 ms  DeleteObjects: 2.431100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.599 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 9.207900 ms (FindLiveObjects: 1.248500 ms CreateObjectMapping: 1.568500 ms MarkObjects: 4.287400 ms  DeleteObjects: 2.101900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3915.
+Total: 7.769600 ms (FindLiveObjects: 0.988800 ms CreateObjectMapping: 0.475500 ms MarkObjects: 3.744000 ms  DeleteObjects: 2.558200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 9.513000 ms (FindLiveObjects: 1.189500 ms CreateObjectMapping: 0.665400 ms MarkObjects: 4.438900 ms  DeleteObjects: 3.217300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.1 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3921.
+Total: 8.400400 ms (FindLiveObjects: 1.345600 ms CreateObjectMapping: 0.697500 ms MarkObjects: 4.231000 ms  DeleteObjects: 2.123800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3924.
+Total: 4.612600 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.182400 ms MarkObjects: 2.091600 ms  DeleteObjects: 1.990200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3927.
+Total: 8.693600 ms (FindLiveObjects: 0.641700 ms CreateObjectMapping: 0.358900 ms MarkObjects: 4.370100 ms  DeleteObjects: 3.320000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 7.577400 ms (FindLiveObjects: 1.002400 ms CreateObjectMapping: 0.406800 ms MarkObjects: 3.856100 ms  DeleteObjects: 2.309800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.156 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3933.
+Total: 8.508900 ms (FindLiveObjects: 0.616500 ms CreateObjectMapping: 0.300000 ms MarkObjects: 4.290500 ms  DeleteObjects: 3.299600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.0 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3936.
+Total: 6.893600 ms (FindLiveObjects: 0.702700 ms CreateObjectMapping: 0.556400 ms MarkObjects: 3.132100 ms  DeleteObjects: 2.500500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3939.
+Total: 7.241900 ms (FindLiveObjects: 0.636600 ms CreateObjectMapping: 0.357800 ms MarkObjects: 3.450900 ms  DeleteObjects: 2.793400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3942.
+Total: 5.818000 ms (FindLiveObjects: 0.657300 ms CreateObjectMapping: 0.340200 ms MarkObjects: 2.152800 ms  DeleteObjects: 2.666300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002709 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3945.
+Total: 8.671900 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.140100 ms MarkObjects: 4.650900 ms  DeleteObjects: 3.557900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 3948.
+Total: 5.428900 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.293800 ms MarkObjects: 2.731000 ms  DeleteObjects: 2.003000 ms)
+
