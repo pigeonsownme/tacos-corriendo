@@ -176,6 +176,7 @@
      <None Include="Assets\Graphics\Materials\Shaders\StandardAmp.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeFloatRGBAHlpNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureCoordinatesNode.shader" />
+     <None Include="Assets\logs\log.txt" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LayeredBlendNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\ChangeLog.txt" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ParallaxMappingNode.shader" />

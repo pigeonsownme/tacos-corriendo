@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,7 @@ public class Controller : MonoBehaviour
     public bool playing = true;
     //Status
     [Header("Status")]
+    public bool isfinished = false;
     public bool canMove = false;
     public bool canInteract = false;
     //Player vars
@@ -67,11 +69,26 @@ public class Controller : MonoBehaviour
     private Telemetry telemetryComp;
     private GameObject Starting;
     private Text StartingTimer;
+    private float police;
+    private float PoliceComing;
+    GameObject PoliceBar;
+    GameObject ComingBar;
+    GameObject policeVignette;
+    Image Vig;
+    private bool policeCalled = false;
+
+    //Debug
+    String log;
+    private StreamWriter _writer;
     // Start is called before the first frame update
     void Start()
     {
+        _writer = File.AppendText(Application.dataPath + "/logs/log.txt");
+        _writer.Write("\n\n=============== Game started ================\n\n");
+        DontDestroyOnLoad(gameObject);
+        Application.RegisterLogCallback(HandleLog);
         //References check
-        if(rb == null)
+        if (rb == null)
         {
             rb = GetComponent<Rigidbody>();
         }
@@ -81,11 +98,16 @@ public class Controller : MonoBehaviour
         cameraAnchorTransform = cameraAnchor.transform;
         StartingTimer = GameObject.Find("Starting In").GetComponent<Text>();
         Starting = GameObject.Find("Image (1)");
+        PoliceBar = GameObject.Find("Progress");
+        ComingBar = GameObject.Find("ProgressComing");
+        policeVignette = GameObject.Find("PoliceVignette");
+        Vig = policeVignette.GetComponent<Image>();
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
+        
         CalculateTelemetry();
         if (!HasTimeStarted)
         {
@@ -97,6 +119,7 @@ public class Controller : MonoBehaviour
             HandleMotor();
             HandleSteering();
         }
+        PoliceHandler();
         CameraFollow();
         LocalRot = transform.localRotation.eulerAngles;
         rotation = transform.rotation.eulerAngles;
@@ -106,10 +129,58 @@ public class Controller : MonoBehaviour
         }
     }
 
+    private void HandleLog(string condition, string stackTrace, LogType type)
+    {
+        var logEntry = string.Format("\n {0} {1} \n {2}\n {3}"
+            , DateTime.Now, type, condition, stackTrace);
+        _writer.Write(logEntry);
+    }
     private void CalculateTelemetry()
     {
         speed = rb.velocity.magnitude;
-        telemetryComp.speed = speed *2;
+        telemetryComp.speed = speed * 1.7f;
+        
+    }
+    private void PoliceHandler()
+    {
+        if(!policeCalled && HasTimeStarted)
+        {
+            if ((speed * 1.7f) <= 100)
+            {
+                police += 0.025f;
+                police = Mathf.Clamp(police, 0, 85.2f);
+            }
+            else
+            {
+                police -= 0.04f + (speed * 1.7f) / 1500;
+                police = Mathf.Clamp(police, 0, 85.2f);
+            }
+            if(police == 85.2f)
+            {
+                policeCalled = true;
+            }
+        }
+        if(policeCalled && HasTimeStarted)
+        {
+            if ((speed * 1.7f) <= 100)
+            {
+                PoliceComing += 0.03f;
+                PoliceComing = Mathf.Clamp(PoliceComing, 0, 85.2f);
+            }
+            else
+            {
+                PoliceComing -= 0.05f + (speed * 1.7f) / 1500;
+                PoliceComing = Mathf.Clamp(PoliceComing, 0, 85.2f);
+            }
+            if(PoliceComing == 0)
+            {
+                policeCalled = false;
+            }
+        }
+        
+        PoliceBar.transform.localScale = new Vector3(police, 1.0375f, 1);
+        Vig.color =new Vector4(Vig.color.r , Vig.color.g, Vig.color.b, PoliceComing / 85.2f);
+        ComingBar.transform.localScale = new Vector3(PoliceComing, 1.0375f, 1);
     }
     private void StartGame()
     {
