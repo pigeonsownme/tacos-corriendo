@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8598289824181307290}
   - component: {fileID: 8598289824181307291}
   - component: {fileID: 8598289824181307284}
+  - component: {fileID: 4058384264482742679}
   m_Layer: 5
   m_Name: Taco
   m_TagString: Taco!!
@@ -96,3 +97,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   truckKun: {fileID: 0}
+--- !u!210 &4058384264482742679
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8598289824181307285}
+  m_Enabled: 1
+  m_SortingLayerID: -1108750131
+  m_SortingLayer: 1
+  m_SortingOrder: 10

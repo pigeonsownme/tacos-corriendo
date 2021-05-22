@@ -20,6 +20,7 @@ public class Reflectionprobe : MonoBehaviour
         {
             Debug.DrawRay(transform.position,Vector3.down * hit.distance, Color.yellow);
             transform.position = hit.point;
+            transform.position = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
         }
     }
 }
