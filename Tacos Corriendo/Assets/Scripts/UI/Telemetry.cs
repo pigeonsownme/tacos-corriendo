@@ -28,5 +28,7 @@ public class Telemetry : MonoBehaviour
         float minutes = Mathf.Floor(timeLeft/60);
         float seconds = Mathf.Floor(timeLeft - (60 * minutes));
         timer.text = minutes + ":" + seconds;
+        Speedo.text = speed.ToString("F1");
+        Capital.text = money.ToString();
     }
 }

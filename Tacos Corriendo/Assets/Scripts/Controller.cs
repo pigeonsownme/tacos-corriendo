@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class Controller : MonoBehaviour
     public bool playing = true;
     //Status
     [Header("Status")]
-    public bool canMove;
-    public bool canInteract;
+    public bool canMove = false;
+    public bool canInteract = false;
     //Player vars
     [Header("Movement")]
     [SerializeField] public float motorForce;
@@ -58,7 +59,14 @@ public class Controller : MonoBehaviour
 
     //System
     private float Timer = 180;
-
+    private float speed;
+    [HideInInspector]
+    public int money = 0;
+    private bool HasTimeStarted = false;
+    private float StartTime = 5;
+    private Telemetry telemetryComp;
+    private GameObject Starting;
+    private Text StartingTimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -67,23 +75,53 @@ public class Controller : MonoBehaviour
         {
             rb = GetComponent<Rigidbody>();
         }
+        telemetryComp = GameObject.Find("UI").GetComponent<Telemetry>();
         rb.mass = mass;
         rb.centerOfMass -= new Vector3(0f, 0.9f, 0f);
         cameraAnchorTransform = cameraAnchor.transform;
+        StartingTimer = GameObject.Find("Starting In").GetComponent<Text>();
+        Starting = GameObject.Find("Image (1)");
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        GetInput();
-        HandleMotor();
-        HandleSteering();
+        CalculateTelemetry();
+        if (!HasTimeStarted)
+        {
+            StartGame();
+        }
+        if (canMove)
+        {
+            GetInput();
+            HandleMotor();
+            HandleSteering();
+        }
         CameraFollow();
         LocalRot = transform.localRotation.eulerAngles;
         rotation = transform.rotation.eulerAngles;
         if (Input.GetKey(KeyCode.T))
         {
             transform.rotation = Quaternion.Euler(0, transform.rotation.y, 0);
+        }
+    }
+
+    private void CalculateTelemetry()
+    {
+        speed = rb.velocity.magnitude;
+        telemetryComp.speed = speed *2;
+    }
+    private void StartGame()
+    {
+        StartTime -= Time.deltaTime;
+        StartingTimer.text = "Starting in \n" + Mathf.Floor(StartTime);
+        if (StartTime <= 0)
+        {
+            Debug.Log("Game is officially starting");
+            HasTimeStarted = true;
+            canMove = true;
+            canInteract = true;
+            Destroy(Starting);
         }
     }
 
