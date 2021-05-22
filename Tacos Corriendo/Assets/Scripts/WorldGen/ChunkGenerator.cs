@@ -28,10 +28,13 @@ public class ChunkGenerator : MonoBehaviour
             for(int e = 0; e < length; e++)
             {
 
-                Chunks[e * i] = Instantiate(GameObject.CreatePrimitive(PrimitiveType.Cube), new Vector3(i*30, 0, e*30), Quaternion.Euler(0,0,0), transform);
-                Chunks[e * i].transform.localScale = new Vector3(1, 30, 1);
+                Chunks[e * i] = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                Chunks[e * i].transform.position = new Vector3(i * 30, 0, e * 30);
+                Chunks[e * i].transform.rotation = Quaternion.Euler(0, 0, 0);
+                Chunks[e * i].transform.localScale = new Vector3(30, 30, 30);
                 Chunks[e * i].GetComponent<MeshRenderer>().enabled = false;
                 Chunks[e * i].GetComponent<BoxCollider>().isTrigger = true;
+                Chunks[e * i].transform.parent = transform;
                 Chunk chunkComponent = Chunks[e * i].AddComponent<Chunk>();
                 chunkComponent.x = e;
                 chunkComponent.y = i;

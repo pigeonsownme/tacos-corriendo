@@ -31,7 +31,7 @@ public class Chunk : MonoBehaviour
         CamPosition = mainCam.transform;
         if (!isRoad)
         {
-            building_ID = Random.RandomRange(0, Buildings.Buildings.Length);
+            building_ID = Random.Range(0, Buildings.Buildings.Length);
         }
         if (isRoad)
         {

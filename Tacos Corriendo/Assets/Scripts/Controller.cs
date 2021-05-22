@@ -56,6 +56,9 @@ public class Controller : MonoBehaviour
     [SerializeField] public float CamMovespeed;
     private Transform cameraAnchorTransform;
 
+    //System
+    private float Timer = 180;
+
     // Start is called before the first frame update
     void Start()
     {
