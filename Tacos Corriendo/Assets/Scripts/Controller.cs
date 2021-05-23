@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Controller : MonoBehaviour
@@ -99,11 +100,7 @@ public class Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        _writer = File.AppendText(Application.dataPath + "/logs/log.txt");
-        _writer.Write("\n\n=============== Game started ================\n\n");
-        DontDestroyOnLoad(gameObject);
-        Application.RegisterLogCallback(HandleLog);
+        Debug.Log("Starting Controller Script");
         //References check
         if (rb == null)
         {
@@ -125,6 +122,7 @@ public class Controller : MonoBehaviour
         sec.SetActive(false);
         End = GameObject.Find("End");
         End.SetActive(false);
+        Debug.Log("Started Controller script");
     }
 
     // Update is called once per frame
@@ -152,16 +150,12 @@ public class Controller : MonoBehaviour
         }
         if(isFinished && !End.active)
         {
+            Debug.Log("Loading end UI");
             End.SetActive(true);
         }
     }
 
-    private void HandleLog(string condition, string stackTrace, LogType type)
-    {
-        var logEntry = string.Format("\n {0} {1} \n {2}\n {3}"
-            , DateTime.Now, type, condition, stackTrace);
-        _writer.Write(logEntry);
-    }
+    
     private void CalculateTelemetry()
     {
         speed = rb.velocity.magnitude;
@@ -173,6 +167,7 @@ public class Controller : MonoBehaviour
         else if(timer<=0.1f)
         {
             isFinished = true;
+            Debug.Log("Game has ended");
         }
         if(timer <= 33.2f && !inEndStrech && !isFinished)
         {
@@ -180,6 +175,7 @@ public class Controller : MonoBehaviour
             SwitchMusic(EndStrechMusic);
             inEndStrech = true;
             sec.SetActive(true);
+            Debug.Log("In End Strech");
         }
         if (timer <= 0.05f && !isFinished)
         {
@@ -188,6 +184,7 @@ public class Controller : MonoBehaviour
             canMove = false;
             canInteract = false;
             End.SetActive(false);
+            Debug.Log("Finished the game and won");
         }
         telemetryComp.timeLeft = timer;
         
@@ -196,14 +193,14 @@ public class Controller : MonoBehaviour
     {
         if(!policeCalled && HasTimeStarted && !isFinished)
         {
-            if ((speed * 1.7f) <= 80)
+            if ((speed * 1.7f) <= 70)
             {
-                police += 0.025f;
+                police += 0.06f;
                 police = Mathf.Clamp(police, 0, 85.2f);
             }
             else
             {
-                police -= 0.04f + (speed * 1.7f) / 1500;
+                police -= 0.08f + (speed * 1.7f) / 1500;
                 police = Mathf.Clamp(police, 0, 85.2f);
             }
             if(police == 85.2f)
@@ -211,6 +208,7 @@ public class Controller : MonoBehaviour
                 policeCalled = true;
                 if (!inEndStrech)
                 {
+                    Debug.Log("Player is being chased");
                     musicID = 1;
                     SwitchMusic(policeMusic);
                 }
@@ -218,20 +216,21 @@ public class Controller : MonoBehaviour
         }
         if(policeCalled && HasTimeStarted && !isFinished)
         {
-            if ((speed * 1.7f) <= 80)
+            if ((speed * 1.7f) <= 70)
             {
-                PoliceComing += 0.03f;
+                PoliceComing += 0.06f;
                 PoliceComing = Mathf.Clamp(PoliceComing, 0, 85.2f);
             }
             else
             {
-                PoliceComing -= 0.05f + (speed * 1.7f) / 1500;
+                PoliceComing -= 0.06f + (speed * 1.7f) / 1500;
                 PoliceComing = Mathf.Clamp(PoliceComing, 0, 85.2f);
             }
             if(PoliceComing == 0)
             {
                 if (!inEndStrech)
                 {
+                    Debug.Log("Player escaped police");
                     musicID = 0;
                     SwitchMusic(AmbiantMusic);
                 }
@@ -239,6 +238,7 @@ public class Controller : MonoBehaviour
             }
             if(PoliceComing == 85.2f && !isFinished)
             {
+                Debug.Log("Player lost");
                 isFinished = true;
                 HasWon = false;
                 canMove = false;
@@ -263,6 +263,7 @@ public class Controller : MonoBehaviour
             canMove = true;
             canInteract = true;
             Destroy(Starting);
+            Debug.Log("Sucessfully Started Game");
         }
     }
 
@@ -351,8 +352,14 @@ public class Controller : MonoBehaviour
     }
     private void SwitchMusic(AudioClip NewAudio)
     {
+        Debug.Log("Switching song from " + Source.clip.name + " to " + NewAudio.name);
         Source.clip = NewAudio;
         Source.volume = volume;
         Source.Play();
+    }
+    public void Restart()
+    {
+        Debug.Log("Reloading scene");
+        SceneManager.LoadScene("Aztec Ruins", LoadSceneMode.Single);
     }
 }

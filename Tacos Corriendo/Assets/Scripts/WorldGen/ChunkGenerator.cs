@@ -133,6 +133,7 @@ public class ChunkGenerator : MonoBehaviour
         string file = reader.ReadToEnd();
         string[] lines = file.Split('\n');
         Debug.Log("Roadmap has been read");
+        reader.Close();
         return lines;
     }
     public void RoadmapGenerator(int width, int length)
