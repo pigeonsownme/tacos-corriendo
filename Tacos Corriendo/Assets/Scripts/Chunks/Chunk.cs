@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+using System.Collections;
 
 public class Chunk : MonoBehaviour
 {
@@ -26,7 +26,7 @@ public class Chunk : MonoBehaviour
     void Start()
     {
 
-        Buildings = (BuildingRepository)AssetDatabase.LoadAssetAtPath("Assets/WorldGeneration/Building Repository.asset", typeof(BuildingRepository));
+        Buildings = Resources.Load<BuildingRepository>("BuildingRep/Building Repository");
         mainCam = Camera.main;
         CamPosition = mainCam.transform;
         if (!isRoad)

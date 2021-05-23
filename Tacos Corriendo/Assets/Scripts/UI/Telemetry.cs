@@ -20,7 +20,6 @@ public class Telemetry : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeLeft -= Time.deltaTime;
         UpdateTelemetry();
     }
     private void UpdateTelemetry()

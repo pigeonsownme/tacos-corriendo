@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class People : MonoBehaviour
@@ -10,7 +9,7 @@ public class People : MonoBehaviour
     public int GroupSize;
     bool road = false;
     public bool hasSpawned;
-    GameObject TACOs;
+    public GameObject TACOs;
     GameObject spawned;
     Transform parent;
     Rigidbody rBody;
@@ -33,7 +32,6 @@ public class People : MonoBehaviour
             GroupSize = Random.Range(0, MaxSize);
             if(GroupSize > 0)
             {
-                TACOs = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Graphics/Prefabs/UI/Taco.prefab", typeof(GameObject));
                 spawned = Instantiate(TACOs, new Vector3((transform.position.x + 0.5f * 30), (transform.position.y + 2), (transform.position.z - 0.5f * 30)), Quaternion.Euler(0, 0, 0), parent);
                 spawned.transform.localScale = new Vector3(2.5f, 2.5f, 2.5f);
                 rBody = GetComponent<Rigidbody>();

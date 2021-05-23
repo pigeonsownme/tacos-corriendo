@@ -58,14 +58,22 @@ public class Controller : MonoBehaviour
     [SerializeField] public Camera MainCamera;
     [SerializeField] public float CamMovespeed;
     private Transform cameraAnchorTransform;
+    //Music
+    [Header("Music")]
+    [SerializeField] AudioClip policeMusic;
+    [SerializeField] AudioClip AmbiantMusic;
+    [SerializeField] AudioClip EndStrechMusic;
+    [SerializeField] AudioClip LostMusic;
 
     //System
-    private float Timer = 180;
+    private float MusicTimer = 2.5f;
+    private float Timer = 185;
     private float speed;
     [HideInInspector]
     public int money = 0;
     private bool HasTimeStarted = false;
-    private float StartTime = 5;
+    private float StartTime = 6.5f;
+    private float timer = 175;
     private Telemetry telemetryComp;
     private GameObject Starting;
     private Text StartingTimer;
@@ -76,6 +84,14 @@ public class Controller : MonoBehaviour
     GameObject policeVignette;
     Image Vig;
     private bool policeCalled = false;
+    private int musicID = 0;
+    private bool inEndStrech = false;
+    [HideInInspector] public bool isFinished;
+    [HideInInspector] public bool HasWon;
+    private AudioSource Source;
+    private float volume = 1;
+    GameObject sec;
+    GameObject End;
 
     //Debug
     String log;
@@ -83,6 +99,7 @@ public class Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         _writer = File.AppendText(Application.dataPath + "/logs/log.txt");
         _writer.Write("\n\n=============== Game started ================\n\n");
         DontDestroyOnLoad(gameObject);
@@ -102,6 +119,12 @@ public class Controller : MonoBehaviour
         ComingBar = GameObject.Find("ProgressComing");
         policeVignette = GameObject.Find("PoliceVignette");
         Vig = policeVignette.GetComponent<Image>();
+        Source = MainCamera.GetComponent<AudioSource>();
+        SwitchMusic(AmbiantMusic);
+        sec = GameObject.Find("30Sec");
+        sec.SetActive(false);
+        End = GameObject.Find("End");
+        End.SetActive(false);
     }
 
     // Update is called once per frame
@@ -127,6 +150,10 @@ public class Controller : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0, transform.rotation.y, 0);
         }
+        if(isFinished && !End.active)
+        {
+            End.SetActive(true);
+        }
     }
 
     private void HandleLog(string condition, string stackTrace, LogType type)
@@ -139,13 +166,37 @@ public class Controller : MonoBehaviour
     {
         speed = rb.velocity.magnitude;
         telemetryComp.speed = speed * 1.7f;
+        if(timer>0 && HasTimeStarted && !isFinished)
+        {
+            timer -= Time.deltaTime;
+        }
+        else if(timer<=0.1f)
+        {
+            isFinished = true;
+        }
+        if(timer <= 33.2f && !inEndStrech && !isFinished)
+        {
+            musicID = 2;
+            SwitchMusic(EndStrechMusic);
+            inEndStrech = true;
+            sec.SetActive(true);
+        }
+        if (timer <= 0.05f && !isFinished)
+        {
+            isFinished = true;
+            HasWon = true;
+            canMove = false;
+            canInteract = false;
+            End.SetActive(false);
+        }
+        telemetryComp.timeLeft = timer;
         
     }
     private void PoliceHandler()
     {
-        if(!policeCalled && HasTimeStarted)
+        if(!policeCalled && HasTimeStarted && !isFinished)
         {
-            if ((speed * 1.7f) <= 100)
+            if ((speed * 1.7f) <= 80)
             {
                 police += 0.025f;
                 police = Mathf.Clamp(police, 0, 85.2f);
@@ -158,11 +209,16 @@ public class Controller : MonoBehaviour
             if(police == 85.2f)
             {
                 policeCalled = true;
+                if (!inEndStrech)
+                {
+                    musicID = 1;
+                    SwitchMusic(policeMusic);
+                }
             }
         }
-        if(policeCalled && HasTimeStarted)
+        if(policeCalled && HasTimeStarted && !isFinished)
         {
-            if ((speed * 1.7f) <= 100)
+            if ((speed * 1.7f) <= 80)
             {
                 PoliceComing += 0.03f;
                 PoliceComing = Mathf.Clamp(PoliceComing, 0, 85.2f);
@@ -174,7 +230,21 @@ public class Controller : MonoBehaviour
             }
             if(PoliceComing == 0)
             {
+                if (!inEndStrech)
+                {
+                    musicID = 0;
+                    SwitchMusic(AmbiantMusic);
+                }
                 policeCalled = false;
+            }
+            if(PoliceComing == 85.2f && !isFinished)
+            {
+                isFinished = true;
+                HasWon = false;
+                canMove = false;
+                canInteract = false;
+                End.SetActive(false);
+                SwitchMusic(LostMusic);
             }
         }
         
@@ -278,5 +348,11 @@ public class Controller : MonoBehaviour
         
         cameraAnchorTransform.rotation = Quaternion.Slerp(cameraAnchorTransform.rotation, targetRotation, (CamMovespeed) * Time.deltaTime);
         cameraAnchorTransform.position = transform.position;
+    }
+    private void SwitchMusic(AudioClip NewAudio)
+    {
+        Source.clip = NewAudio;
+        Source.volume = volume;
+        Source.Play();
     }
 }

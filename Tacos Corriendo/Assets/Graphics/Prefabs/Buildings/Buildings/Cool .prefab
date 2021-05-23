@@ -1038,6 +1038,7 @@ MonoBehaviour:
   MaxSize: 3
   GroupSize: 0
   hasSpawned: 0
+  TACOs: {fileID: 8598289824181307285, guid: 62e6ae27758dbb642bcbb4b1f16fae00, type: 3}
 --- !u!65 &3396725552215133249
 BoxCollider:
   m_ObjectHideFlags: 0

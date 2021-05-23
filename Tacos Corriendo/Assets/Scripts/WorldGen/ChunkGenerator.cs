@@ -139,7 +139,7 @@ public class ChunkGenerator : MonoBehaviour
     {
         Debug.Log("Generating roadmap");
         string strCmdText;
-        strCmdText = @"/C Assets\Scripts\WorldGen\LevelGenerator\main.exe " +width +" "+length +" 30 35 5";
+        strCmdText = @"/C Assets\Scripts\WorldGen\LevelGenerator\main.exe " + width + " " + length + " 30 35 5";
         Debug.Log("opening cmd with args " + strCmdText);
         try
         {

@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Chunks\ChunkCollider.cs" />
     <Compile Include="Assets\Scripts\People\People.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\Delete.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosTime.shader" />
@@ -156,6 +157,7 @@
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ObjSpaceViewDirHlpNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleMinNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_IndirectSpecularLight.shader" />
+     <None Include="Assets\Scripts\WorldGen\LevelGenerator\level.txt" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FunctionOutputNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ConditionalIfNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\Unlit.shader" />
@@ -196,7 +198,6 @@
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldToObjectTransfNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleMaxOp.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Templates\Legacy\UnlitLightmap.shader" />
-     <None Include="Assets\Scripts\WorldGen\LevelGenerator\level.txt" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SaturateNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RangedFloatNode.shader" />
      <None Include="Assets\Graphics\Shader\AmplifyMain\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DecodeViewNormalStereoHlpNode.shader" />
